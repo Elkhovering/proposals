@@ -2463,14 +2463,20 @@ footer {
                 grid-template-columns: 1fr;
               }
               .af-substats {
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr !important;
               }
               .tiers {
                 grid-template-columns: 1fr;
               }
               .road-steps {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 30px;
+                grid-template-columns: 1fr !important;
+                gap: 24px !important;
+              }
+              .proto-duo {
+                grid-template-columns: 1fr !important;
+              }
+              .ai-features {
+                grid-template-columns: 1fr !important;
               }
               .proto-stack {
                 height: auto;
@@ -2554,6 +2560,276 @@ footer {
               }
               .bc-logbook {
                 min-height: 240px !important;
+              }
+            }
+
+@media (max-width: 768px) {
+              .container {
+                padding: 0 20px !important;
+              }
+              .section {
+                padding: 90px 0 !important;
+              }
+              .section-sm {
+                padding: 60px 0 !important;
+              }
+              nav.top {
+                padding: 16px 20px !important;
+              }
+              .hero {
+                padding: 140px 0 70px !important;
+                min-height: auto !important;
+              }
+              .hero .meta {
+                gap: 12px !important;
+                margin-bottom: 28px !important;
+              }
+              .hero .meta .chip {
+                padding: 8px 14px !important;
+                font-size: 11px !important;
+              }
+              .hero .sub {
+                font-size: 17px !important;
+                margin-top: 28px !important;
+              }
+              .hero .hero-ctas {
+                margin-top: 32px !important;
+                gap: 12px !important;
+              }
+              .hero .hero-ctas .btn {
+                width: 100% !important;
+                justify-content: center !important;
+                padding: 16px 22px !important;
+              }
+              .btn {
+                padding: 14px 22px !important;
+                font-size: 14px !important;
+              }
+              h2, .h2 {
+                font-size: clamp(30px, 6vw, 46px) !important;
+              }
+              h3, .h3 {
+                font-size: clamp(22px, 4.5vw, 32px) !important;
+              }
+              .road-steps {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+              }
+              .af-substats {
+                grid-template-columns: 1fr !important;
+              }
+              .proto-duo {
+                grid-template-columns: 1fr !important;
+              }
+              .imp-features {
+                grid-template-columns: 1fr !important;
+              }
+              .ai-features {
+                grid-template-columns: 1fr !important;
+              }
+              .ai-exp-content {
+                grid-template-columns: 1fr !important;
+                gap: 16px !important;
+              }
+              .ai-exp-stats {
+                flex-direction: column !important;
+                flex-wrap: wrap !important;
+                gap: 14px !important;
+                align-items: flex-start !important;
+              }
+              .hero .meta {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+              }
+              .final .contact {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 18px !important;
+                padding: 24px 22px !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+              }
+              .hero-ctas,
+              .af-substats,
+              .proto-duo,
+              .road-steps,
+              .imp-features,
+              .ai-features,
+              .tiers,
+              .audit-slider,
+              .ai-layout,
+              .bento-grid {
+                grid-template-columns: 1fr !important;
+              }
+              .btn,
+              .btn-primary,
+              .btn-ghost,
+              .btn-white {
+                width: 100% !important;
+                justify-content: center !important;
+              }
+              nav.top .cta {
+                width: auto !important;
+              }
+              .cmp-wrap .btn,
+              .ai-pricing .btn,
+              nav.top .btn {
+                width: auto !important;
+              }
+              .tier-card + .tier-card,
+              .ai-feat-card + .ai-feat-card,
+              .imp-card + .imp-card {
+                margin-top: 16px !important;
+              }
+              .proto-cta-bar {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 18px !important;
+                padding: 28px !important;
+              }
+              .proto-cta-bar .btn-white {
+                width: 100% !important;
+                justify-content: center !important;
+              }
+              /* horizontal scroll for comparison table */
+              .cmp-wrap {
+                overflow-x: auto !important;
+                -webkit-overflow-scrolling: touch !important;
+              }
+              .cmp-table {
+                min-width: 640px !important;
+                font-size: 12px !important;
+              }
+              .cmp-table thead th,
+              .cmp-table tbody td {
+                padding: 12px 10px !important;
+              }
+              .cmp-footer {
+                padding: 24px !important;
+              }
+              .cmp-footer .price-row {
+                grid-template-columns: 1fr !important;
+                gap: 14px !important;
+              }
+              .tier-card,
+              .ai-feat-card,
+              .imp-card {
+                padding: 24px !important;
+              }
+              .ai-pricing {
+                padding: 24px !important;
+              }
+              .ai-pricing-head .apt {
+                font-size: 16px !important;
+              }
+              .ai-mock {
+                max-width: 100% !important;
+              }
+              .bento-card {
+                min-height: 200px !important;
+              }
+              .bc-phone {
+                min-height: 300px !important;
+              }
+              .audit-mock-panel,
+              .audit-facts-panel {
+                padding: 24px !important;
+              }
+              .af-num {
+                font-size: 48px !important;
+              }
+              .proto-mock {
+                transform: none !important;
+              }
+              .footer,
+              footer {
+                padding: 40px 0 !important;
+              }
+              nav.top .logo img {
+                height: 22px !important;
+              }
+              nav.top .cta {
+                padding: 10px 18px !important;
+                font-size: 13px !important;
+              }
+              /* Force all inline grids inside competitive / channel / AI sections to 1 column */
+              #competitive [style*="grid-template-columns"],
+              #channel [style*="grid-template-columns"],
+              #ai [style*="grid-template-columns"] {
+                grid-template-columns: 1fr !important;
+              }
+              #channel [style*="text-align:right"],
+              #channel [style*="text-align: right"] {
+                text-align: left !important;
+              }
+              #channel [style*="grid-template-columns"] > div:last-child {
+                max-width: 100% !important;
+              }
+              /* AI pricing rows stacked */
+              .ai-pricing-row,
+              .ai-pricing-total {
+                grid-template-columns: 1fr !important;
+                gap: 6px !important;
+              }
+              .ai-pricing-row .apr-price,
+              .ai-pricing-total .apt-sum {
+                text-align: left !important;
+              }
+              .ai-pricing-head {
+                flex-direction: column !important;
+                align-items: flex-start !important;
+                gap: 10px !important;
+              }
+            }
+
+@media (max-width: 480px) {
+              .container {
+                padding: 0 16px !important;
+              }
+              .section {
+                padding: 70px 0 !important;
+              }
+              .hero {
+                padding: 120px 0 60px !important;
+              }
+              .hero h1 {
+                font-size: clamp(32px, 9vw, 48px) !important;
+                line-height: 1.1 !important;
+              }
+              .hero .sub {
+                font-size: 15px !important;
+              }
+              .hero .meta .chip img {
+                height: 18px !important;
+              }
+              .af-num {
+                font-size: 40px !important;
+              }
+              .tier-card,
+              .ai-feat-card,
+              .imp-card,
+              .ai-pricing,
+              .audit-mock-panel,
+              .audit-facts-panel,
+              .proto-cta-bar {
+                padding: 20px !important;
+                border-radius: 18px !important;
+              }
+              .cmp-table {
+                min-width: 560px !important;
+              }
+              .ai-pricing-row,
+              .ai-pricing-total {
+                grid-template-columns: 1fr !important;
+                gap: 6px !important;
+              }
+              .ai-pricing-row .apr-price,
+              .ai-pricing-total .apt-sum {
+                text-align: left !important;
+              }
+              .bc-badge {
+                font-size: 11px !important;
+                padding: 6px 10px !important;
               }
             }
 
