@@ -3605,145 +3605,117 @@ footer {
           </div>
         </div>
 
-<!-- ——— CTA прототип ——— -->
-        <div class="proto-cta-bar reveal">
-          <div class="pcb-text">
-            <h4>Скриншоты прототипа · предварительный дизайн</h4>
-            <p>
-              Папка со&nbsp;скриншотами всех ключевых экранов: главная,
-              каталог с&nbsp;фильтром по&nbsp;профилю, карточка с&nbsp;аналогами Roto/Maco,
-              B2B-кабинет дилера, кейсы заводов окон, контакты.
-              Нужны, чтобы обозначить структуру&nbsp;— финальный дизайн готовится на&nbsp;этапе UI.
-            </p>
-          </div>
-          <a class="btn-white" href="media/future-website/" target="_blank" rel="noopener">
-            Открыть скриншоты
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.2"
-            >
-              <path
-                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-              />
-              <polyline points="15 3 21 3 21 9" />
-              <line x1="10" y1="14" x2="21" y2="3" />
-            </svg>
-          </a>
-        </div>
+<!-- ——— Прото-галерея: скриншоты в исходном соотношении ——— -->
+        <div class="proto-gallery" style="display:flex; flex-direction:column; gap:32px; margin-bottom: 16px;">
 
-<!-- ——— BENTO GRID ——— -->
-        <div class="bento-grid">
-          <!-- Мобильный вид -->
-          <div class="bento-card bc-phone reveal">
-            <div class="phone-mock">
-              <div class="phone-screen">
-                <img
-                  src="media/future-website/mobile-01-hero.png"
-                  alt="Мобильный вид нового сайта inhaco.ru"
-                  loading="lazy"
-                />
-              </div>
+          <!-- Главная -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Главная</span>
             </div>
-            <div class="bc-badge spark">Мобильный</div>
-          </div>
+            <img src="media/future-website/desktop-01-hero.png" alt="Главная нового сайта inhaco.ru" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
-          <!-- Главная — широкая строка -->
-          <div class="bento-card bc-logbook reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru</div>
+          <!-- Каталог -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/catalog/ruchki-okonnye/</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Каталог · фильтры по&nbsp;профилю</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-01-hero.png"
-                alt="Главная нового сайта inhaco.ru"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge blue">Главная</div>
-          </div>
+            <img src="media/future-website/desktop-02-catalog.png" alt="Каталог ТГ 30 «Ручки оконные» с фильтрами по бренду и профилю" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
-          <!-- Каталог с конфигуратором -->
-          <div class="bento-card bc-catalog reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru/catalog/30-ruchki-okonnye</div>
+          <!-- Карточка товара -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/product/avrasya-classic-35/</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Карточка товара · табы и&nbsp;аналоги</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-02-catalog.png"
-                alt="Каталог с фильтром по профилю"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge">Каталог · подбор</div>
-          </div>
+            <img src="media/future-website/desktop-03-product.png" alt="Карточка ручки Avrasya Classic 35 мм — артикул, цена, MOQ, аналоги, документы" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
-          <!-- Карточка товара с аналогами -->
-          <div class="bento-card bc-blog reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru/catalog/.../ruchka-winky</div>
+          <!-- B2B-кабинет дилера -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/dealers/</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">B2B-кабинет дилера</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-03-product.png"
-                alt="Карточка товара с аналогами и PDF-паспортом"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge">Карточка · аналоги</div>
-          </div>
+            <img src="media/future-website/desktop-04-cabinet.png" alt="Дилерский B2B-кабинет: вход, преимущества, индивидуальные условия" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
-          <!-- B2B-кабинет -->
-          <div class="bento-card bc-admin reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru/cabinet</div>
+          <!-- Типовые сценарии заводов окон -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/#scenarios</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Типовые сценарии заводов окон</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-04-cabinet.png"
-                alt="B2B-кабинет дилера"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge">B2B-кабинет</div>
-          </div>
+            <img src="media/future-website/desktop-05-cases.png" alt="Блок «Типовые сценарии» с обезличенными карточками заказчиков" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
-          <!-- Кейсы заводов окон -->
-          <div class="bento-card bc-chars reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru/cases</div>
+          <!-- Справочник аналогов -->
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/analogs/</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Справочник аналогов Roto / Maco / Siegenia</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-05-cases.png"
-                alt="Кейсы заводов окон-заказчиков"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge">Кейсы заводов</div>
-          </div>
+            <img src="media/future-website/desktop-06-about.png" alt="Справочник аналогов: импортный артикул → замена «Родники-Литьё»" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
 
           <!-- Контакты -->
-          <div class="bento-card bc-main reveal">
-            <div class="bc-bar">
-              <div class="dots"><span></span><span></span><span></span></div>
-              <div class="url">inhaco.ru/kontakty</div>
+          <figure class="reveal" style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+            <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+              <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+              <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+              <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/contacts/</span>
+              <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--blue-2);">Контакты</span>
             </div>
-            <div class="bc-screen">
-              <img
-                src="media/future-website/desktop-07-contacts.png"
-                alt="Контакты и дилерская сеть"
-                loading="lazy"
-              />
-            </div>
-            <div class="bc-badge">Контакты · дилеры</div>
+            <img src="media/future-website/desktop-07-contacts.png" alt="Страница контактов: адрес производства, менеджеры, email" loading="lazy" style="display:block; width:100%; height:auto;" />
+          </figure>
+
+          <!-- Мобильная — главная и каталог в паре -->
+          <div class="reveal" style="display:grid; grid-template-columns: 1fr 1fr; gap: 32px;">
+            <figure style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+              <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+                <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+                <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+                <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+                <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru</span>
+                <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--spark);">Главная · mobile</span>
+              </div>
+              <img src="media/future-website/mobile-01-hero.png" alt="Главная inhaco.ru в мобильной версии" loading="lazy" style="display:block; width:100%; height:auto;" />
+            </figure>
+            <figure style="margin:0; background:#fff; border-radius:16px; border:1px solid var(--line); box-shadow: var(--shadow-lg); overflow:hidden;">
+              <div style="display:flex; align-items:center; gap:8px; padding:12px 18px; background: var(--bg-2); border-bottom:1px solid var(--line);">
+                <span style="width:10px; height:10px; border-radius:50%; background:#ff6053; display:inline-block;"></span>
+                <span style="width:10px; height:10px; border-radius:50%; background:#ffbc2e; display:inline-block;"></span>
+                <span style="width:10px; height:10px; border-radius:50%; background:#28c93f; display:inline-block;"></span>
+                <span style="font-family: 'Courier New', monospace; font-size:12px; color: var(--muted); margin-left:14px;">inhaco.ru/catalog/ruchki-okonnye/</span>
+                <span style="margin-left:auto; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; color: var(--spark);">Каталог · mobile</span>
+              </div>
+              <img src="media/future-website/mobile-02-catalog.png" alt="Каталог ручек оконных в мобильной версии" loading="lazy" style="display:block; width:100%; height:auto;" />
+            </figure>
           </div>
+
         </div>
 
 <!-- ——— Feature-карточки ——— -->
@@ -4459,18 +4431,17 @@ ScrollTrigger.create({
           })();
 
 ScrollTrigger.create({
-            trigger: ".bento-grid",
-            start: "top 78%",
+            trigger: ".proto-gallery",
+            start: "top 80%",
             onEnter: () => {
               gsap.fromTo(
-                ".bento-card",
-                { opacity: 0, y: 36, scale: 0.96 },
+                ".proto-gallery > .reveal, .proto-gallery > .reveal > figure",
+                { opacity: 0, y: 40 },
                 {
                   opacity: 1,
                   y: 0,
-                  scale: 1,
-                  duration: 0.8,
-                  stagger: { each: 0.07, from: "start" },
+                  duration: 0.9,
+                  stagger: 0.08,
                   ease: "power3.out",
                   overwrite: true,
                 },
