@@ -2880,7 +2880,7 @@ footer {
         <h1>
           Программно-аппаратный&nbsp;комплекс<br>
           видеофиксации&nbsp;и&nbsp;верификации<br>
-          <span class="accent">целостности продукции (ПАК&nbsp;)</span>
+          <span class="accent">целостности продукции (ПАК&nbsp;V8)</span>
         </h1>
         <p class="sub reveal">
           Промышленное решение, которое&nbsp;фиксирует каждую банку
@@ -2941,7 +2941,7 @@ footer {
             <div style="margin-top:8px;font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:0.06em;font-weight:700">прогноз снижения потерь</div>
             <p style="margin-top:10px;font-size:14px !important;color:var(--ink-soft) !important;line-height:1.55 !important">
               Прогноз департамента бизнес-аналитики Neat&nbsp;Studio
-              после&nbsp;внедрения ПАК&nbsp; в&nbsp;течение года эксплуатации.
+              после&nbsp;внедрения ПАК&nbsp;V8 в&nbsp;течение года эксплуатации.
             </p>
           </div>
         </div>
@@ -3202,7 +3202,7 @@ footer {
             <div class="recommended">★ Рекомендуем</div>
             <div class="tier-num">03</div>
             <div class="tag">Корпоративный</div>
-            <h3>Премиум-сборка ПАК <br>с&nbsp;Web-панелью&nbsp;СБ</h3>
+            <h3>Премиум-сборка ПАК V8<br>с&nbsp;Web-панелью&nbsp;СБ</h3>
             <p class="desc">
               Всё из&nbsp;«Стандарта» + выделенный NAS RAID 4×4&nbsp;ТБ,
               SHA-256 на&nbsp;каждый фрагмент, веб-интерфейс администратора
@@ -3244,7 +3244,7 @@ footer {
           <table class="cmp-table">
             <thead>
               <tr>
-                <th>Блок</th>
+                <th>Критерий сравнения</th>
                 <th>Базовый</th>
                 <th>Стандарт</th>
                 <th class="best">Корпоративный</th>
@@ -3252,70 +3252,34 @@ footer {
             </thead>
             <tbody>
               <tr>
-                <td>Привязка видео к&nbsp;маркировке</td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Попартийная: общий ролик на&nbsp;всю партию</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Поштучная: отдельный ролик на&nbsp;каждый QR-код</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Поштучная + Web-поиск по&nbsp;ID в&nbsp;один клик</small></td>
+                <td>Техническая суть</td>
+                <td>Непрерывная запись общего видеофайла на&nbsp;всю технологическую партию. Коды связываются в&nbsp;базе данных со&nbsp;временем.</td>
+                <td>Object Tracking: для&nbsp;каждой банки формируется изолированный видеофрагмент, жёстко связанный с&nbsp;её&nbsp;QR-кодом.</td>
+                <td class="best">Полная поштучная индексация + сетевой видеоархив, защита от&nbsp;подмены файлов и&nbsp;веб-панель оператора.</td>
               </tr>
               <tr>
-                <td>Промышленный аппаратный комплекс</td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Базовая комплектация под&nbsp;конвейер</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Расширенная: повышенная мощность Edge&nbsp;PC, NVMe&nbsp;SSD</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Корпоративная: + NAS-сервер RAID 4×4&nbsp;ТБ</small></td>
+                <td>Нагрузка на&nbsp;инфраструктуру</td>
+                <td>Минимальная. Низкая частота транзакций к&nbsp;базе, малые накладные расходы.</td>
+                <td>Выше средней. Постоянная сегментация медиапотока в&nbsp;реальном времени.</td>
+                <td class="best">Высокая. Распределённая обработка потоков, защищённый сетевой контур, поддержка RAID-массива архива.</td>
               </tr>
               <tr>
-                <td>Каскадный ансамбль декодеров QR</td>
-                <td><span class="cmp-dash">—</span><br><small>Базовая обработка через OpenCV</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Параллельно pyzbar + ZXing + OpenCV</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>То&nbsp;же + распределённая обработка</small></td>
-              </tr>
-              <tr>
-                <td>Сегментация видео через FFmpeg</td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Нарезка логов по&nbsp;партиям</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Поштучные ролики 5–10 секунд</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Поштучные ролики + автореп&shy;ликация на&nbsp;NAS</small></td>
-              </tr>
-              <tr>
-                <td>NAS-архив (RAID, хранение 60+ дней)</td>
-                <td><span class="cmp-dash">—</span></td>
-                <td><span class="cmp-dash">—</span></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>RAID 4×4&nbsp;ТБ, выделенный сервер архивации</small></td>
-              </tr>
-              <tr>
-                <td>Контроль целостности SHA-256</td>
-                <td><span class="cmp-dash">—</span></td>
-                <td><span class="cmp-dash">—</span></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Хэш каждого фрагмента в&nbsp;PostgreSQL — доказательно для&nbsp;арбитража</small></td>
-              </tr>
-              <tr>
-                <td>Web-панель администратора / СБ</td>
-                <td><span class="cmp-dash">—</span></td>
-                <td><span class="cmp-dash">—</span></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Vite + React: поиск по&nbsp;ID, плеер, экспорт в&nbsp;1&nbsp;клик</small></td>
-              </tr>
-              <tr>
-                <td>Авторизация JWT, изолированный VLAN</td>
-                <td><span class="cmp-dash">—</span></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>JWT для&nbsp;внутренних API</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>JWT + изолированный сетевой контур + ERP</small></td>
-              </tr>
-              <tr>
-                <td>Пусконаладка (шеф-монтаж + ПСИ)</td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>1&nbsp;выезд, базовая калибровка, ПСИ за&nbsp;смену</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>+ ОПЭ на&nbsp;конвейере, оптимизация Latency</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>+ обучение операторов, расширенная ОПЭ&nbsp;(2&nbsp;смены)</small></td>
-              </tr>
-              <tr>
-                <td>Управление проектом (PM)</td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Контроль дорожной карты, сдача по&nbsp;ТЗ</small></td>
-                <td><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Архитектурный контроль, сдача вех</small></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Архитектурный надзор, интеграция с&nbsp;ERP</small></td>
+                <td>Эффективность в&nbsp;арбитраже</td>
+                <td>Низкая. Претензионный отдел вручную ищет фрагменты в&nbsp;длинных логах партии&nbsp;— это замедляет споры.</td>
+                <td>Максимальная. Выгрузка 5–10-секундного ролика «укупорка» по&nbsp;конкретному QR-коду в&nbsp;один клик.</td>
+                <td class="best">Абсолютная. Мгновенный поиск видео по&nbsp;ID в&nbsp;веб-интерфейсе, подтверждённая неизменяемость файлов для&nbsp;судов.</td>
               </tr>
               <tr>
                 <td>Срок реализации</td>
                 <td>3 календарные недели</td>
                 <td>5 календарных недель</td>
                 <td class="best">8 календарных недель</td>
+              </tr>
+              <tr>
+                <td>Стоимость</td>
+                <td>410 000 ₽</td>
+                <td>680 000 ₽</td>
+                <td class="best">980 000 ₽</td>
               </tr>
             </tbody>
           </table>
