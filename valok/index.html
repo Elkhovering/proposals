@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Коммерческое предложение — ООО НПП «Валок» × Neat Studio</title>
-    <meta name="description" content="Новый корпоративный B2B-сайт для НПП «Валок»: производство и восстановление прокатных валков, квиз-калькулятор для квалификации заявок, мультиязычность RU/EN, AI-разбор входящих писем через n8n." />
+    <meta name="description" content="Новый корпоративный B2B-сайт для НПП «Валок»: производство и восстановление прокатных валков, квиз-калькулятор для квалификации заявок, мультиязычность RU/EN, автоматический разбор входящих писем через n8n." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -2753,7 +2753,7 @@ footer {
                 padding: 10px 18px !important;
                 font-size: 13px !important;
               }
-              /* Force all inline grids inside competitive / channel / AI sections to 1 column */
+              /* Force all inline grids inside competitive / channel / automation sections to 1 column */
               #competitive [style*="grid-template-columns"],
               #channel [style*="grid-template-columns"],
               #ai [style*="grid-template-columns"] {
@@ -2766,7 +2766,7 @@ footer {
               #channel [style*="grid-template-columns"] > div:last-child {
                 max-width: 100% !important;
               }
-              /* AI pricing rows stacked */
+              /* Automation pricing rows stacked */
               .ai-pricing-row,
               .ai-pricing-total {
                 grid-template-columns: 1fr !important;
@@ -2895,7 +2895,7 @@ footer {
           и&nbsp;~150&nbsp;патентов в&nbsp;поток квалифицированных B2B-заявок:
           квиз-калькулятор для&nbsp;квалификации лидов, блог и&nbsp;база знаний,
           интеграции с&nbsp;1С и&nbsp;Битрикс24, мультиязычность RU/EN
-          и&nbsp;AI-разбор входящих писем через&nbsp;n8n.
+          и&nbsp;автоматический разбор входящих писем через&nbsp;n8n.
         </p>
         <div class="hero-ctas reveal">
           <a class="btn btn-primary" href="#proposals"
@@ -3788,8 +3788,8 @@ footer {
             Три пакета под&nbsp;бюджет и&nbsp;сроки: базовый многостраничный сайт
             на&nbsp;1С-Битрикс, расширенный «Битрикс» с&nbsp;квизом, блогом
             и&nbsp;интеграциями 1С/Битрикс24, либо полная самописная
-            реализация с&nbsp;мультиязычностью, ЛК, чатом и&nbsp;AI-разбором
-            писем. Что именно входит&nbsp;— ниже.
+            реализация с&nbsp;мультиязычностью, ЛК, чатом и&nbsp;автоматическим
+            разбором писем через&nbsp;n8n. Что именно входит&nbsp;— ниже.
           </div>
         </div>
 
@@ -3868,7 +3868,7 @@ footer {
             <div class="recommended">★ Рекомендуем</div>
             <div class="tier-num">03</div>
             <div class="tag">Самописная реализация</div>
-            <h3>Самописный B2B-портал<br>с&nbsp;ЛК, AI и&nbsp;мультиязычностью</h3>
+            <h3>Самописный B2B-портал<br>с&nbsp;ЛК, чатом и&nbsp;мультиязычностью</h3>
             <p class="desc">
               Всё из&nbsp;«Битрикс» на&nbsp;собственной платформе + мультиязычность
               (RU/EN), личный кабинет B2B-клиента, авторазбор входящих писем через&nbsp;n8n,
@@ -3898,7 +3898,7 @@ footer {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Избранное и&nbsp;сравнение изделий
               </li>
             </ul>
-            <div class="cta-tier">Максимум функций + AI-автоматизация + ЛК закупщика</div>
+            <div class="cta-tier">Максимум функций + автоматизация + ЛК закупщика</div>
           </div>
         </div>
         </div>
@@ -4053,73 +4053,12 @@ footer {
       </div>
     </section>
 
-<!-- ========== AI AUTOMATION ========== -->
-    <section class="section-sm" id="ai">
-      <div class="container">
-        <div class="s-head">
-          <div class="l reveal">
-            <span class="eyebrow">05 · Автоматизация</span>
-            <h2>AI-квалификация B2B-лидов<br>и&nbsp;тех. подбор валка</h2>
-          </div>
-          <div class="r reveal">
-            Модуль, который снимает с&nbsp;команды НПП «Валок» рутину
-            первичного разбора B2B-обращений: n8n-конвейер квалифицирует
-            и&nbsp;маршрутизирует входящие письма, извлекает данные
-            о&nbsp;заказчике и&nbsp;типоразмере, создаёт задачи в&nbsp;CRM
-            и&nbsp;готовит черновик ответа. Входит в&nbsp;пакет
-            «Самописная реализация»; к&nbsp;«Битрикс Базовый» и&nbsp;«Битрикс»
-            подключается отдельно.
-          </div>
-        </div>
-
-        <div class="reveal" style="display:grid; grid-template-columns: 1.2fr 1fr; gap:16px; margin-top: 40px">
-          <div style="background: var(--ink); border-radius:20px; padding:36px; box-shadow: var(--shadow-xl); position:relative; overflow:hidden">
-            <div style="position:absolute; top:24px; right:24px; font-size:10px; font-weight:700; letter-spacing:.1em; color:var(--cyan); text-transform:uppercase">n8n · LLM · TG-bot</div>
-            <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:rgba(255,255,255,0.55); text-transform:uppercase; margin-bottom:10px">B2B-обращения → CRM</div>
-            <h3 style="font-size:24px; font-weight:800; color:#fff; margin:0 0 14px; line-height:1.2">AI-квалификация и&nbsp;технический подбор валка</h3>
-            <p style="font-size:14px; color:rgba(255,255,255,0.7); line-height:1.6; margin:0 0 18px">AI-ассистент в&nbsp;чате подбирает типоразмер валка по&nbsp;описанию заказчика
-              (диаметр, материал, твёрдость, масса), n8n-конвейер разбирает входящие
-              письма и&nbsp;ТЗ от&nbsp;закупщиков комбинатов, классифицирует тип запроса
-              (новое изготовление / восстановление / наплавка) и&nbsp;маршрутизирует
-              в&nbsp;CRM с&nbsp;уведомлением в&nbsp;Telegram-канал отдела.</p>
-            <ul style="list-style:none; padding:0; margin:0 0 18px; display:grid; gap:8px">
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>AI-чат тех. подбора валка по&nbsp;Æ, материалу, твёрдости, массе</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Авторазбор писем (market@valok.ru) и&nbsp;извлечение тех. параметров</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Классификация обращений: изготовление / восстановление / наплавка</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Автосоздание сделок в&nbsp;CRM + Telegram-бот для&nbsp;инженерного отдела</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>AI-перевод входящих англоязычных запросов (для&nbsp;экспорта)</li>
-            </ul>
-            <div style="display:flex; gap:32px; padding-top:18px; border-top:1px solid rgba(255,255,255,0.08)">
-              <div><div style="font-size:28px; font-weight:900; color:#fff; line-height:1">9</div><div style="font-size:11px; color:rgba(255,255,255,0.5); margin-top:2px">раб. дней</div></div>
-              <div><div style="font-size:28px; font-weight:900; color:var(--cyan); line-height:1">45&nbsp;452&nbsp;₽</div><div style="font-size:11px; color:rgba(255,255,255,0.5); margin-top:2px">стоимость модуля</div></div>
-            </div>
-          </div>
-
-          <div style="background: linear-gradient(135deg, var(--spark), var(--spark-2)); border-radius:20px; padding:36px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 40px 80px -30px rgba(255, 107, 26, 0.4)">
-            <div>
-              <div style="font-size:11px; font-weight:700; letter-spacing:.1em; color:rgba(26,13,0,0.7); text-transform:uppercase; margin-bottom:10px">Вопрос к&nbsp;команде НПП «Валок»</div>
-              <div style="font-size:20px; font-weight:800; color:#1a0d00; line-height:1.3; margin-bottom:14px">Сколько времени уходит на&nbsp;первичный разбор B2B-обращений?</div>
-              <p style="font-size:13px; color:rgba(26,13,0,0.85); line-height:1.6; margin:0 0 14px">Расшифровка тех. требований из&nbsp;письма, проверка наличия в&nbsp;серии,
-                подготовка ответа с&nbsp;ценой и&nbsp;сроком, переписка с&nbsp;инженерным отделом
-                о&nbsp;нестандартных размерах&nbsp;— современные LLM и&nbsp;n8n-сценарии закрывают
-                рутину в&nbsp;5–10 раз быстрее. Расскажите, где «уходят часы»&nbsp;— подберём
-                автоматизацию под&nbsp;конкретный сценарий.</p>
-            </div>
-            <div style="padding-top:14px; border-top:1px solid rgba(26,13,0,0.25)">
-              <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:rgba(26,13,0,0.7); text-transform:uppercase; margin-bottom:6px">Что уже умеем</div>
-              <div style="font-size:13px; color:rgba(26,13,0,0.9); line-height:1.5">Разбор писем и&nbsp;ТЗ&nbsp;· AI-чат тех. подбора&nbsp;· Telegram-боты для&nbsp;B2B&nbsp;· перевод запросов&nbsp;· RAG по&nbsp;базе знаний и&nbsp;патентам</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 <!-- ========== ROADMAP ========== -->
     <section class="section road" id="roadmap">
       <div class="container">
         <div class="s-head">
           <div class="l reveal">
-            <span class="eyebrow">06 · Поэтапная реализация</span>
+            <span class="eyebrow">05 · Поэтапная реализация</span>
             <h2>Дорожная карта и&nbsp;что нужно от&nbsp;вас</h2>
           </div>
           <div class="r reveal">
@@ -4165,7 +4104,7 @@ footer {
                 <h4>Разработка</h4>
                 <p>
                   Вёрстка, фронт, бэк, формы&nbsp;→ CRM, квиз (для&nbsp;«Битрикс» и&nbsp;«Самопис»),
-                  интеграции с&nbsp;1С / Битрикс24, AI-блок и&nbsp;ЛК для&nbsp;«Самопис».
+                  интеграции с&nbsp;1С / Битрикс24, авторазбор писем (n8n) и&nbsp;ЛК для&nbsp;«Самопис».
                 </p>
                 <div class="rs-t">4–5 недель</div>
               </div>
