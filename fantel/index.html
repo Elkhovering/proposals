@@ -579,14 +579,15 @@ nav.top {
               display: flex !important;
               flex-direction: column !important;
               gap: 0 !important;
-              overflow: hidden;
+              overflow: visible;
+              min-height: 540px !important;
             }
 
 .af-slides-wrap {
               position: relative !important;
               flex: 1 !important;
-              min-height: 0 !important;
-              overflow: hidden;
+              min-height: 420px !important;
+              overflow: visible;
             }
             .aslide-fact {
               position: absolute !important;
@@ -634,7 +635,7 @@ nav.top {
               color: var(--muted) !important;
               line-height: 1.6 !important;
               flex: 1 !important;
-              overflow: hidden;
+              overflow: visible;
             }
             .af-substats {
               display: grid !important;
@@ -3192,15 +3193,6 @@ footer {
             </ul>
           </div>
           <div class="reveal" style="background:#fff; border-radius:16px; padding:24px; border:1px solid var(--line); box-shadow: var(--shadow-lg)">
-            <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:var(--blue-2); text-transform:uppercase; margin-bottom:10px">Региональный лидер</div>
-            <div style="font-size:13px; font-weight:700; color:var(--ink); margin-bottom:8px">Невские берега · cake.spb.ru</div>
-            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:5px">
-              <li style="font-size:12px; color:var(--ink-soft); display:flex; gap:7px"><span style="color:var(--blue-2); flex-shrink:0">→</span>Отдельный B2C-ИМ на&nbsp;поддомене cake-shop.spb.ru</li>
-              <li style="font-size:12px; color:var(--ink-soft); display:flex; gap:7px"><span style="color:var(--blue-2); flex-shrink:0">→</span>Раздел «Партнёрам» с&nbsp;программой франшизы</li>
-              <li style="font-size:12px; color:var(--ink-soft); display:flex; gap:7px"><span style="color:var(--blue-2); flex-shrink:0">→</span>Новости и&nbsp;отзывы на&nbsp;главной</li>
-            </ul>
-          </div>
-          <div class="reveal" style="background:#fff; border-radius:16px; padding:24px; border:1px solid var(--line); box-shadow: var(--shadow-lg)">
             <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:var(--blue-2); text-transform:uppercase; margin-bottom:10px">Федеральный холдинг</div>
             <div style="font-size:13px; font-weight:700; color:var(--ink); margin-bottom:8px">КФ им. К. Самойловой · uniconf.ru</div>
             <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:5px">
@@ -3210,7 +3202,7 @@ footer {
             </ul>
           </div>
           <div class="reveal" style="background: var(--ink); border-radius:16px; padding:24px; box-shadow: var(--shadow-xl); display:flex; flex-direction:column; justify-content:center">
-            <div style="font-size:28px; font-weight:900; color:#fff; line-height:1.1; margin-bottom:12px">7<span style="color:var(--cyan)"> сайтов</span><br>в 5 типах решений</div>
+            <div style="font-size:28px; font-weight:900; color:#fff; line-height:1.1; margin-bottom:12px">6<span style="color:var(--cyan)"> сайтов</span><br>в 5 типах решений</div>
             <p style="font-size:12px; color:rgba(255,255,255,0.6); line-height:1.6; margin:0">Также проверены сайты: Сладонеж, Север-Метрополь. Полная gap-матрица — в DOCX.</p>
           </div>
         </div>
@@ -3686,11 +3678,11 @@ footer {
                 <path d="M12 22V12M12 12L3.27 7.5M12 12l8.73-4.5"/>
               </svg>
             </div>
-            <h4>AI-автоматизация заявок</h4>
+            <h4>Дилерский кабинет</h4>
             <p>
-              n8n-маршрутизация форм в&nbsp;CRM, авторазбор писем
-              на&nbsp;partner@, AI-генерация спецификаций и&nbsp;КП
-              для&nbsp;менеджера. Без&nbsp;публичного чата.
+              Личный кабинет для&nbsp;дилеров: история заказов, документы,
+              статусы отгрузок, актуальный прайс по&nbsp;договору.
+              Авторизация по&nbsp;email или телефону.
             </p>
           </div>
         </div>
@@ -3710,7 +3702,7 @@ footer {
             Три пакета под&nbsp;бюджет и&nbsp;сроки: базовый сайт
             на&nbsp;1С-Битрикс, расширенный корпоративный на&nbsp;Битрикс
             с&nbsp;квизом и&nbsp;блогом, и&nbsp;самописная реализация
-            с&nbsp;ЛК дилера, мультиязычностью и&nbsp;авторазбором писем через&nbsp;n8n.
+            с&nbsp;ЛК дилера, мультиязычностью и&nbsp;фасетным каталогом.
           </div>
         </div>
 
@@ -3726,8 +3718,8 @@ footer {
               и&nbsp;интерактивные элементы.
             </p>
             <div class="price">
-              <div class="v">506&nbsp;867&nbsp;₽</div>
-              <div class="u">/ 42 раб. дня · 8–9 недель</div>
+              <div class="v">300&nbsp;000&nbsp;₽</div>
+              <div class="u">/ 30 раб. дней · 6 недель</div>
             </div>
             <ul>
               <li>
@@ -3760,8 +3752,8 @@ footer {
               Дистрибьюторы.
             </p>
             <div class="price">
-              <div class="v">634&nbsp;161&nbsp;₽</div>
-              <div class="u">/ 47 раб. дней · 9–10 недель</div>
+              <div class="v">500&nbsp;000&nbsp;₽</div>
+              <div class="u">/ 45 раб. дней · 9 недель</div>
             </div>
             <ul>
               <li>
@@ -3790,16 +3782,15 @@ footer {
             <div class="recommended">★ Рекомендуем</div>
             <div class="tier-num">03</div>
             <div class="tag">Самописная реализация</div>
-            <h3>Самописная реализация<br>с&nbsp;ЛК и&nbsp;n8n</h3>
+            <h3>Самописная реализация<br>с&nbsp;ЛК и&nbsp;каталогом</h3>
             <p class="desc">
-              Всё из&nbspБитрикс» на&nbsp;собственной платформе + личный
-              кабинет дилера, мультиязычность и&nbsp;автоматический разбор
-              писем на&nbsp;partner@ через n8n с&nbsp;маршрутизацией заявок
-              в&nbsp;CRM по&nbsp;регионам.
+              Всё из&nbsp;«Битрикс» на&nbsp;собственной платформе + личный
+              кабинет дилера, мультиязычность (RU/EN), фасетный каталог
+              SKU с&nbsp;PDF-спецификациями и&nbsp;карта дилеров.
             </p>
             <div class="price">
-              <div class="v">1&nbsp;092&nbsp;394&nbsp;₽</div>
-              <div class="u">/ 47 раб. дней · 9–10 недель</div>
+              <div class="v">700&nbsp;000&nbsp;₽</div>
+              <div class="u">/ 60 раб. дней · 12 недель</div>
             </div>
             <ul>
               <li>
@@ -3812,13 +3803,13 @@ footer {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Мультиязычность (RU/EN + отдельные SEO)
               </li>
               <li>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Авторазбор писем partner@ через n8n + классификация
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Фасетный каталог SKU с&nbsp;PDF-спецификациями
               </li>
               <li>
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFB547" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Полный контроль над&nbsp;кодом и&nbsp;данными
               </li>
             </ul>
-            <div class="cta-tier">Максимум функций + авторазбор писем</div>
+            <div class="cta-tier">Максимум B2B-функций + дилерский кабинет</div>
           </div>
         </div>
         </div>
@@ -3899,10 +3890,10 @@ footer {
                 <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>2+ языка, переключение, отдельные SEO-настройки</small></td>
               </tr>
               <tr>
-                <td>Авторазбор входящих писем (n8n)</td>
+                <td>Фасетный каталог с&nbsp;PDF-спецификациями</td>
                 <td><span class="cmp-dash">—</span></td>
                 <td><span class="cmp-dash">—</span></td>
-                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Классификация, извлечение ИНН/контрагента/суммы и&nbsp;типа обращения, задачи в&nbsp;CRM, черновик ответа</small></td>
+                <td class="best"><span class="cmp-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span><br><small>Фильтр по&nbsp;весу, фасовке, сроку годности; карточка SKU с&nbsp;составом, BBE и&nbsp;скачиваемой PDF-спецификацией</small></td>
               </tr>
               <tr>
                 <td>Гарантия и&nbsp;поддержка</td>
@@ -3916,15 +3907,15 @@ footer {
             <div class="price-row">
               <div class="p-item">
                 <div class="l">Битрикс Базовый</div>
-                <div class="v">506&nbsp;867&nbsp;₽</div>
+                <div class="v">300&nbsp;000&nbsp;₽</div>
               </div>
               <div class="p-item">
                 <div class="l">Битрикс</div>
-                <div class="v">634&nbsp;161&nbsp;₽</div>
+                <div class="v">500&nbsp;000&nbsp;₽</div>
               </div>
               <div class="p-item best">
                 <div class="l">Самописная реализация</div>
-                <div class="v">1&nbsp;092&nbsp;394&nbsp;₽</div>
+                <div class="v">700&nbsp;000&nbsp;₽</div>
               </div>
             </div>
             <a class="btn btn-primary" href="https://cloud.mail.ru/public/Qd2S/uEDQqvy9J/%D0%A1%D0%BC%D0%B5%D1%82%D0%B0_%D0%A4%D0%B0%D0%BD%D1%82%D1%8D%D0%BB%D1%8C.pdf" target="_blank" rel="noopener">Полная смета · PDF
@@ -3932,66 +3923,6 @@ footer {
                 <path d="M5 12h14M13 6l6 6-6 6" />
               </svg>
             </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!-- ========== AI AUTOMATION ========== -->
-    <section class="section-sm" id="ai">
-      <div class="container">
-        <div class="s-head">
-          <div class="l reveal">
-            <span class="eyebrow">05 · Автоматизация</span>
-            <h2>Авторазбор входящих писем<br>через&nbsp;n8n</h2>
-          </div>
-          <div class="r reveal">
-            Модуль закрывает рутину менеджеров: разбирает почту
-            на&nbsp;partner@kf-fantel.com, маршрутизирует заявки
-            в&nbsp;CRM по&nbsp;регионам, готовит черновики ответов
-            и&nbsp;спецификаций. Работает за&nbsp;кулисами&nbsp;— на&nbsp;сайте
-            публичный чат не&nbsp;размещаем. Входит в&nbsp;тариф
-            «Самописная реализация», в&nbsp;остальные подключается отдельно.
-          </div>
-        </div>
-
-        <div class="reveal" style="display:grid; grid-template-columns: 1.2fr 1fr; gap:16px; margin-top: 40px">
-          <div style="background: var(--ink); border-radius:20px; padding:36px; box-shadow: var(--shadow-xl); position:relative; overflow:hidden">
-            <div style="position:absolute; top:24px; right:24px; font-size:10px; font-weight:700; letter-spacing:.1em; color:var(--cyan); text-transform:uppercase">n8n · LLM</div>
-            <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:rgba(255,255,255,0.55); text-transform:uppercase; margin-bottom:10px">Inbox → CRM</div>
-            <h3 style="font-size:24px; font-weight:800; color:#fff; margin:0 0 14px; line-height:1.2">n8n-маршрутизация и&nbsp;AI-помощник менеджеру</h3>
-            <p style="font-size:14px; color:rgba(255,255,255,0.7); line-height:1.6; margin:0 0 18px">Заявки с&nbsp;сайта и&nbsp;письма на&nbsp;partner@ автоматически
-              классифицируются (дилер / HoReCa / ритейл / поставщик сырья),
-              маршрутизируются по&nbsp;региону на&nbsp;менеджера представительства,
-              в&nbsp;CRM создаётся сделка, AI-помощник готовит черновик КП
-              и&nbsp;спецификации.</p>
-            <ul style="list-style:none; padding:0; margin:0 0 18px; display:grid; gap:8px">
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Классификация заявок: дилер / HoReCa / ритейл / экспорт / поставщик</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Извлечение из&nbsp;письма: компания, регион, объём, контакт, ИНН</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>Маршрутизация в&nbsp;CRM по&nbsp;6 представительствам автоматически</li>
-              <li style="font-size:13px; color:rgba(255,255,255,0.75); display:flex; gap:8px"><span style="color:var(--cyan); flex-shrink:0">→</span>AI-помощник: генерация КП и&nbsp;спецификаций SKU по&nbsp;запросу</li>
-            </ul>
-            <div style="display:flex; gap:32px; padding-top:18px; border-top:1px solid rgba(255,255,255,0.08)">
-              <div><div style="font-size:28px; font-weight:900; color:#fff; line-height:1">12</div><div style="font-size:11px; color:rgba(255,255,255,0.5); margin-top:2px">рабочих дней</div></div>
-              <div><div style="font-size:28px; font-weight:900; color:var(--cyan); line-height:1">320&nbsp;000&nbsp;₽</div><div style="font-size:11px; color:rgba(255,255,255,0.5); margin-top:2px">стоимость модуля</div></div>
-            </div>
-          </div>
-
-          <div style="background: linear-gradient(135deg, var(--spark), var(--spark-2)); border-radius:20px; padding:36px; display:flex; flex-direction:column; justify-content:space-between; box-shadow: 0 40px 80px -30px rgba(255, 107, 26, 0.4)">
-            <div>
-              <div style="font-size:11px; font-weight:700; letter-spacing:.1em; color:rgba(26,13,0,0.7); text-transform:uppercase; margin-bottom:10px">Вопрос к&nbsp;команде «Фантэль»</div>
-              <div style="font-size:20px; font-weight:800; color:#1a0d00; line-height:1.3; margin-bottom:14px">Какие рутинные задачи отнимают у&nbsp;менеджеров регионов больше всего времени?</div>
-              <p style="font-size:13px; color:rgba(26,13,0,0.85); line-height:1.6; margin:0 0 14px">Подготовка спецификаций SKU, расчёт стоимости отгрузки
-                по&nbsp;паллетам, формирование КП под&nbsp;нового дилера,
-                сверка остатков с&nbsp;1С, ответы на&nbsp;типовые запросы
-                ритейла&nbsp;— LLM и&nbsp;n8n-сценарии закрывают большинство
-                таких задач. Расскажите, где «уходят часы»&nbsp;— подберём
-                автоматизацию под&nbsp;конкретный процесс.</p>
-            </div>
-            <div style="padding-top:14px; border-top:1px solid rgba(26,13,0,0.25)">
-              <div style="font-size:11px; font-weight:700; letter-spacing:.08em; color:rgba(26,13,0,0.7); text-transform:uppercase; margin-bottom:6px">Что уже умеем</div>
-              <div style="font-size:13px; color:rgba(26,13,0,0.9); line-height:1.5">Разбор писем и&nbsp;документов&nbsp;· RAG по&nbsp;базе знаний&nbsp;· генерация КП и&nbsp;спецификаций&nbsp;· AI-помощник менеджеру (без&nbsp;публичного чата)</div>
-            </div>
           </div>
         </div>
       </div>
@@ -4052,10 +3983,10 @@ footer {
                 <div class="rs-n">ЭТАП 03</div>
                 <h4>Разработка</h4>
                 <p>
-                  Вёрстка, фасетный каталог, B2B-формы → CRM, карта
-                  Яндекс.Карт, видео-блок производства, RU/EN, кнопки
-                  MAX / Telegram / WhatsApp, n8n-автоматизация
-                  заявок и&nbsp;интеграции 1С / ЭДО.
+                  Вёрстка, фасетный каталог с&nbsp;PDF-спецификациями,
+                  B2B-формы → CRM, карта Яндекс.Карт, видео-блок
+                  производства, RU/EN, кнопки MAX / Telegram / WhatsApp,
+                  интеграции 1С / ЭДО.
                 </p>
                 <div class="rs-t">4–5 недель</div>
               </div>
